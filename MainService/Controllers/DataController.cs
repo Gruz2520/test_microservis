@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using MainService.Clients;
 
 namespace MainService.Controllers
 {

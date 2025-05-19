@@ -31,3 +31,4 @@ D:\Projects\projects_c#\test_microservis\MainService\obj\Debug\net8.0\refint\Mai
 D:\Projects\projects_c#\test_microservis\MainService\obj\Debug\net8.0\MainService.pdb
 D:\Projects\projects_c#\test_microservis\MainService\obj\Debug\net8.0\MainService.genruntimeconfig.cache
 D:\Projects\projects_c#\test_microservis\MainService\obj\Debug\net8.0\ref\MainService.dll
+D:\Projects\projects_c#\test_microservis\MainService\obj\Debug\net8.0\MainService.sourcelink.json

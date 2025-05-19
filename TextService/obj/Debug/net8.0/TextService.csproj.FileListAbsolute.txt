@@ -31,3 +31,9 @@ D:\Projects\projects_c#\test_microservis\TextService\obj\Debug\net8.0\refint\Tex
 D:\Projects\projects_c#\test_microservis\TextService\obj\Debug\net8.0\TextService.pdb
 D:\Projects\projects_c#\test_microservis\TextService\obj\Debug\net8.0\TextService.genruntimeconfig.cache
 D:\Projects\projects_c#\test_microservis\TextService\obj\Debug\net8.0\ref\TextService.dll
+D:\Projects\projects_c#\test_microservis\TextService\obj\Debug\net8.0\TextService.sourcelink.json
+D:\Projects\projects_c#\test_microservis\TextService\bin\Debug\net8.0\MainService.deps.json
+D:\Projects\projects_c#\test_microservis\TextService\bin\Debug\net8.0\MainService.runtimeconfig.json
+D:\Projects\projects_c#\test_microservis\TextService\bin\Debug\net8.0\MainService.exe
+D:\Projects\projects_c#\test_microservis\TextService\bin\Debug\net8.0\MainService.dll
+D:\Projects\projects_c#\test_microservis\TextService\bin\Debug\net8.0\MainService.pdb

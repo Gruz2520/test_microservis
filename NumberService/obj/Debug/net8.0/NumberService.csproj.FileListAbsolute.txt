@@ -31,3 +31,9 @@ D:\Projects\projects_c#\test_microservis\NumberService\obj\Debug\net8.0\refint\N
 D:\Projects\projects_c#\test_microservis\NumberService\obj\Debug\net8.0\NumberService.pdb
 D:\Projects\projects_c#\test_microservis\NumberService\obj\Debug\net8.0\NumberService.genruntimeconfig.cache
 D:\Projects\projects_c#\test_microservis\NumberService\obj\Debug\net8.0\ref\NumberService.dll
+D:\Projects\projects_c#\test_microservis\NumberService\obj\Debug\net8.0\NumberService.sourcelink.json
+D:\Projects\projects_c#\test_microservis\NumberService\bin\Debug\net8.0\MainService.deps.json
+D:\Projects\projects_c#\test_microservis\NumberService\bin\Debug\net8.0\MainService.runtimeconfig.json
+D:\Projects\projects_c#\test_microservis\NumberService\bin\Debug\net8.0\MainService.exe
+D:\Projects\projects_c#\test_microservis\NumberService\bin\Debug\net8.0\MainService.dll
+D:\Projects\projects_c#\test_microservis\NumberService\bin\Debug\net8.0\MainService.pdb

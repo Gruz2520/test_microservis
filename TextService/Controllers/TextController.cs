@@ -1,18 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
+using MainService.Models;
 
-namespace TextService.Controllers
+[ApiController]
+[Route("[controller]")]
+public class TextsController : ControllerBase
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class TextsController : ControllerBase
+    [HttpPost]
+    public IActionResult Post([FromBody] TextRequestDto request)
     {
-        [HttpPost]
-        public IActionResult Post([FromBody] string text)
-        {
-            // Просто логируем полученный текст
-            Console.WriteLine($"Получен текст: {text}");
-
-            return Ok("Текст успешно принят");
-        }
+        var text = request.Text;
+        Console.WriteLine($"Получен текст: {text}");
+        return Ok("Текст успешно принят");
     }
 }

@@ -1,6 +1,5 @@
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
+using System.Net.Http.Json;
+using MainService.Models;
 
 public class TextClient
 {
@@ -14,16 +13,8 @@ public class TextClient
 
     public async Task<string> SendTextAsync(string text)
     {
-        var content = new StringContent(text, Encoding.UTF8, "application/json");
-
-        var response = await _client.PostAsync("/texts", content);
-
-        if (!response.IsSuccessStatusCode)
-        {
-            Console.WriteLine($"Ошибка: {response.StatusCode} - {(int)response.StatusCode}");
-            return "Ошибка при отправке текста";
-        }
-
+        var dto = new TextRequestDto { Text = text };
+        var response = await _client.PostAsJsonAsync("/texts", dto);
         return await response.Content.ReadAsStringAsync();
     }
 }

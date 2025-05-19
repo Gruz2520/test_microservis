@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "TextService/1.0.0": {
         "dependencies": {
+          "MainService": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.3",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -72,6 +73,15 @@
             "fileVersion": "6.4.0.0"
           }
         }
+      },
+      "MainService/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "8.0.3",
+          "Swashbuckle.AspNetCore": "6.4.0"
+        },
+        "runtime": {
+          "MainService.dll": {}
+        }
       }
     }
   },
@@ -129,6 +139,11 @@
       "sha512": "sha512-1Hh3atb3pi8c+v7n4/3N80Jj8RvLOXgWxzix6w3OZhB7zBGRwsy7FWr4e3hwgPweSBpwfElqj4V4nkjYabH9nQ==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    },
+    "MainService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

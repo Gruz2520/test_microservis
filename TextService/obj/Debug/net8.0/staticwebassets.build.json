@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "45TJmVXdREEIUEA82kI8YHtgOZGxbjcz6POXjcUc+xs=",
+  "Hash": "plfdhc0361RSdSL1Z+q5VOihG3LUWD/+ClxVvr5cbPU=",
   "Source": "TextService",
   "BasePath": "_content/TextService",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\Projects\\projects_c#\\test_microservis\\MainService\\MainService.csproj",
+      "Version": 2,
+      "Source": "MainService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

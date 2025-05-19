@@ -1,5 +1,3 @@
-using MainService.Clients;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Добавление поддержки контроллеров
