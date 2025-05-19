@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainService", "MainService", "{8F682EBF-0815-5557-CF51-BDDBA6467F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainService", "MainService\MainService\MainService.csproj", "{F690474E-4867-2D68-8F66-1EB4CF7801D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F690474E-4867-2D68-8F66-1EB4CF7801D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F690474E-4867-2D68-8F66-1EB4CF7801D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F690474E-4867-2D68-8F66-1EB4CF7801D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F690474E-4867-2D68-8F66-1EB4CF7801D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F690474E-4867-2D68-8F66-1EB4CF7801D2} = {8F682EBF-0815-5557-CF51-BDDBA6467F19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B91E431D-4B73-46D4-B58F-481A0DC34791}
+	EndGlobalSection
+EndGlobal
